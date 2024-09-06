@@ -1,5 +1,4 @@
 import random
-MAX_LINES=3
 MIN_BET=1
 MAX_BET=100
 
@@ -56,15 +55,7 @@ def spin(balance,bet):
         print("You lost...Better luck next time!!")
         print(f"your current balance is ${balance-bet}")
         print("Thank you for playing!!")
-
-
-        
-        
-# while True:
-#     print("Welcome to the Slot Machine Game!")
-#     print(f"Max lines: {MAX_LINES}, Min bet: {MIN_BET}, Max bet: {MAX_BET}")
-#     print("Enter 'q' to quit the game.5")
-
+                
 
 def main():
         balance=deposit()
